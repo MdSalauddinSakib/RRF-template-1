@@ -54,15 +54,16 @@
     background-position: center;
     color: #ffffff;
     margin-top: 80px;
+    text-align: center
 }
 
 .contact{
+    max-width: 1200px;
+    margin: 0 auto;
     margin-top: 120px;
     padding: 30px;
     text-align: center;
     font-size: 24px;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .contact p{
@@ -99,4 +100,35 @@
 .icon a:hover{
     font-size: 26px;
     transition: 0.3s;
+}
+
+.form-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+}
+
+.cloumn1{
+    width: 49%;
+}
+
+.cloumn2{
+    width: 49%;
+}
+
+.cloumn3{
+    width: 98%;
+}
+
+.form-section input{
+    padding: 20px;
+    margin: 2px;
+    background-color: #50585b79;
+    border: none;
+    margin-top: 10px;
+}
+
+.form-section input::placeholder{
+    color: #ffffff;
+    font-size: 16px;
 }
