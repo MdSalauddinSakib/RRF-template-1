@@ -54,7 +54,8 @@
     background-position: center;
     color: #ffffff;
     margin-top: 80px;
-    text-align: center
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 .contact{
@@ -131,4 +132,23 @@
 .form-section input::placeholder{
     color: #ffffff;
     font-size: 16px;
+}
+
+.form a{
+    text-decoration: none;
+}
+
+.form .btn{
+    padding: 20px;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #ec6543;
+    border-radius: 10px;
+}
+
+.form .btn:hover{
+    background-color: #f34216;
+    transition: 0.3s;
+    cursor: pointer;
 }
