@@ -47,6 +47,44 @@
     transition: 0.3s;
 }
 
+/* package section */
+.package{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.package-box{
+    background-color: #ec6543;
+    color: #ffffff;
+    line-height: 150%;
+    font-size: 26px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.package-box .ashtext{
+    color: #f7bdae;
+}
+
+.package-box .month{
+    color: #f9ccc1dc;
+}
+
+.package-box .doller{
+    font-size: 96px;
+    line-height: 110%;
+}
+
+.package-box p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* contact section */
+
 .form {
     background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
@@ -179,3 +217,4 @@
     font-size: 24px;
     transition: 0.3s;
 }
+
